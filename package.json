@@ -1,0 +1,14 @@
+{
+  "name": "fruitsproject",
+  "version": "1.0.0",
+  "description": "Fruits Project Database",
+  "main": "app.js",
+  "scripts": {
+    "test": "\\"
+  },
+  "author": "GOD",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.0"
+  }
+}
