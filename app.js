@@ -55,6 +55,7 @@ Fruit.find(function (err, fruits) {
 		console.log(err);
 	} else {
 		// console.log(fruits);
+		mongoose.connection.close();
 		console.log("Success");
 		fruits.forEach(function (fruit) {
 			console.log("Name: " + fruit.name);
